@@ -1,4 +1,4 @@
-version 0.1
+version: 0.1
 
 phases:
     build:
@@ -6,4 +6,5 @@ phases:
             - echo Welcome to the Pipeline
             - mvn clean package
 artifacts:
-    files: target/FrontController.war
+    files: 
+        - target/FrontController.war
